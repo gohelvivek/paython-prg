@@ -14,6 +14,7 @@ class Triangledim():
         else: 
             print("not the right triangle proportions") 
 
+            else:
     def findArea(self):
         area = math.sqrt(self.s*(self.s-self.l1)*(self.s-self.l2)*(self.s-self.l3))
         print("The area of the triangle is: {}".format(area))
